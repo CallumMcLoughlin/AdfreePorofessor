@@ -1,0 +1,8 @@
+{
+  "overwolfProgramName": "Overwolf.exe",
+  "overwolfPatchFile": "..\\bin\\Overwolf.Extensions.dll",
+  "overwolfInstallDir": "C:\\Program Files (x86)\\Overwolf",
+  "porofessorInstallDir": "%LOCALAPPDATA%\\Overwolf\\Extensions\\pibhbkkgefgheeglaeemkkfjlhidhcedalapdggh",
+  "porofessorParseFolders": ["windows"],
+  "porofessorAdIds": ["ad-container"]
+}
