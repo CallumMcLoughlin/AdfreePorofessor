@@ -28,6 +28,11 @@ Patcher for Porofessor to remove ads from the client
 * Edit Porofessor .html files to remove embedded ads
 
 
+### Uninstalling
+
+* Currently no backups of existing files are taken, to uninstall you will need to reinstall Porofessor and Overwolf
+
+
 ## FAQ
 
 * Q: When running the automatic install / main Python file, the program fails to patch Overwolf
@@ -37,7 +42,14 @@ Patcher for Porofessor to remove ads from the client
     * A: The replaced .dll has probably broken Overwolf, i.e Overwolf has updated to a newer version and this is out of data, please open an issue
 
 * Q: Porofessor doesn't run after running automatic install
-    * Overwolf is probably detecting that the files have changed, i.e Overwolf has updated and is running a new, unpatched `Overwolf.Extensions.dll` file, please open an issue
+    * A: Overwolf is probably detecting that the files have changed, i.e Overwolf has updated and is running a new, unpatched `Overwolf.Extensions.dll` file, please open an issue
+
+* Q: Do I need to reinstall Porofessor/Overwolf to remove these changes?
+    * A: Yes, however if Porofessor/Overwolf updates, these changes will be removed anyways
+    
+* Q: Porofessor has updated, what do I do?
+    * A: Rerun the `autoinstall.ps1` script, provided they haven't changed too much this will still patch the newer version
+
 
 ## Disclaimer
 
