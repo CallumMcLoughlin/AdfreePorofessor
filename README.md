@@ -36,13 +36,13 @@ Patcher for Porofessor to remove ads from the client
 ## FAQ
 
 * Q: When running the automatic install / main Python file, the program fails to patch Overwolf
-    * A: You're probably aren't running the Python script with admin permissions, rerun with admin permissions or use the Powershell autoinstall and hit yes when prompted to give appropriate permissions
+    * A: You probably aren't running the Python script with admin permissions, rerun with admin permissions or use the Powershell autoinstall and hit yes when prompted to give appropriate permissions
 
 * Q: Overwolf doesn't run after running automatic install
-    * A: The replaced .dll has probably broken Overwolf, i.e Overwolf has updated to a newer version and this is out of data, please open an issue
+    * A: The replaced .dll has probably broken Overwolf, i.e Overwolf has updated to a newer version and this is out of data, please open an issue and reinstall Overwolf
 
 * Q: Porofessor doesn't run after running automatic install
-    * A: Overwolf is probably detecting that the files have changed, i.e Overwolf has updated and is running a new, unpatched `Overwolf.Extensions.dll` file, please open an issue
+    * A: Overwolf is probably detecting that the files have changed, i.e Overwolf has updated and is running a new, unpatched `Overwolf.Extensions.dll` file, please open an issue and reinstall Porofessor
 
 * Q: Do I need to reinstall Porofessor/Overwolf to remove these changes?
     * A: Yes, however if Porofessor/Overwolf updates, these changes will be removed anyways
